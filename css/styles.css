@@ -25,6 +25,12 @@ figure {
   padding: 1em;
   width: 20em;
 }
+.lg-backdrop {
+    background: RGBA(0,0,0,.9);
+}
+.lg-img {
+    box-shadow: 5px 5px 100px #FFF;
+}
 
 
 /********************
@@ -37,7 +43,13 @@ MEDIA QUERIES
   body {
        background: red;
   }
-  
+    .gallery {
+        flex-direction: column;
+    }
+    figure {
+        width:100%;
+        display:block;
+    }
 }
 
 /* Tablet:  768px = 160em */
